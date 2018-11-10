@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  background-color: #001529;
+  padding: 0 50px;
+  overflow: hidden;
+  height: 64px;
+  font-size: 14px; }
+  .header .logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 120px;
+    margin: 16px 28px 16px 0; }
+    .header .logo img {
+      height: 31px; }
+
+.nav-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+  .nav-menu li {
+    display: flex;
+    align-items: center;
+    padding: 0 20px; }
+    .nav-menu li a {
+      color: #A6ADB4;
+      text-decoration: none; }
+      .nav-menu li a:hover {
+        color: white; }
+
+/*# sourceMappingURL=navi.css.map */

@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  padding: 24px 50px;
+  font-size: 14px;
+  background-color: #001529;
+  color: #ffff;
+  justify-content: space-between; }
+  .footer p {
+    max-width: 300px; }
+  .footer h4 {
+    margin: 0 0 10px 0; }
+  .footer .help {
+    float: left; }
+  .footer .quick-link {
+    max-width: 300px;
+    flex: 1; }
+    .footer .quick-link a {
+      color: #1890ff;
+      text-decoration: none; }
+
+/*# sourceMappingURL=footer.css.map */

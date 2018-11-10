@@ -1,0 +1,23 @@
+/*temporary class to fill up the body content, will be replace in future*/
+
+.home-layout{
+    text-align: center;
+    background-color:#F0F2F5;
+    overflow: hidden;
+
+    .content{
+        margin:10% auto;
+        max-width:300px;
+        box-sizing: border-box;
+        .user-input{
+            input{
+                display:inline-block;
+                margin:0 0 10px 0;
+                width:87%;
+                height:32px;
+                border:none
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,46 @@
+
+.header {
+    display:flex;
+    background-color:#001529;
+    padding: 0 50px;
+    overflow: hidden;
+    height:64px;
+    font-size:14px;
+
+    .logo{
+      display:flex;
+      color:white;
+      align-items:center;
+      width: 120px;
+      margin: 16px 28px 16px 0;
+      img{
+        height:31px;
+      }
+    }
+
+}
+
+.nav-menu{
+  display:flex;
+  margin:0;
+  padding:0;
+  height:100%;
+  li {
+    display:flex;
+    align-items:center;
+    padding:0 20px;
+    a {
+      color: #A6ADB4;
+      text-decoration:none;
+
+      &:hover{
+        color:white;
+      }
+
+    }
+
+
+
+
+  }
+}
